@@ -1,0 +1,7 @@
+{
+  "name": "siklist",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
