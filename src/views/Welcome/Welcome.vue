@@ -91,10 +91,13 @@ export default defineComponent({
         NextButton(){
             this.index++
             this.SetCurrentContent()
+        },
+        ResetIndex(){
+            this.index = 0
         }
     },
-    mounted() {
-        () => this.index = 0
+    ionViewWillEnter() {
+        this.index = 0
         this.SetCurrentContent()
     },
 })
