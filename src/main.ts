@@ -23,6 +23,9 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+//  MDB
+import 'mdb-vue-ui-kit/css/mdb.min.css';
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
